@@ -20,3 +20,7 @@ install-package Newtonsoft.Json
 		- *
 	- files:
 		- readme.recreating.txt
+
+3) Publishing library
+3.1) dotnet pack
+3.2) dotnet nuget push bin/Debug/{nupkg-name} -k {nuget-api-key} -s {repository-source-uri}
